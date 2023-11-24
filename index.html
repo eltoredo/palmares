@@ -10,83 +10,125 @@
   <h1>Palmarès</h1>
   
   <div class="game-container">
-    <div class="game-box">
-      <div class="game-title">League of Legends</div>
-      <div class="game-time">Peak ELO : Diamant 3 44LP</div>
-      <div class="game-time">Actuellement : Diamant 3 44LP</div>
+
+    <button class="dropdown-btn" onclick="toggleSoloGames()">Jeux Solo</button>
+    <div id="solo-games" class="game-container dropdown-content">
+      
+      <div class="game-box">
+        <div class="game-title">League of Legends</div>
+        <div class="game-time">Peak ELO : Diamant 3 68LP</div>
+        <div class="game-time">Actuellement : Diamant 3 68LP</div>
+      </div>
+
+      <div class="game-box">
+        <div class="game-title">Valorant</div>
+        <div class="game-time">Peak ELO : Diamant 1 84RR</div>
+        <div class="game-time">Actuellement : Non classé</div>
+      </div>
+
+      <div class="game-box">
+        <div class="game-title">Fortnite</div>
+        <div class="game-time">Peak ELO (No Build) : Diamant 3 94%</div>
+        <div class="game-time">Actuellement : Diamant 3 94%</div>
+      </div>
+
+      <div class="game-box">
+        <div class="game-title">Counter Strike: Global Offensive</div>
+        <div class="game-time">Peak ELO : Legendary Eagle</div>
+        <div class="game-time">Actuellement : Non classé (9 victoires sur 10)</div>
+      </div>
+
+      <div class="game-box">
+        <div class="game-title">Brawlhalla</div>
+        <div class="game-time">Peak ELO en 1v1 : 2200</div>
+        <div class="game-time">Peak ELO en 2v2 : 2300</div>
+        <div class="game-time">Actuellement : Non classé</div>
+      </div>
+
+      <div class="game-box">
+        <div class="game-title">Super Smash Bros Ultimate</div>
+        <div class="game-time">Peak ELO : X sur Lucina</div>
+        <div class="game-time">Personnages en Élite : Lucina, Samus, Rondoudou, Ganondorf, Captain Falcon, Cloud</div>
+      </div>
+
+      <div class="game-box">
+        <div class="game-title">Phasmophobia</div>
+        <div class="game-time">Niveau maximum (avant refonte) : 5550</div>
+        <div class="game-time">Niveau actuel : 32 prestige 2</div>
+      </div>
+
+      <div class="game-box">
+        <div class="game-title">World of Warcraft</div>
+        <div class="game-time">Niveau du prêtre (classique) : 80</div>
+        <div class="game-time">Niveau du voleur (vanilla) : 21</div>
+      </div>
+
+      <div class="game-box">
+        <div class="game-title">Dofus</div>
+        <div class="game-time">Niveau du crâ : 200</div>
+        <div class="game-time">Niveau du sacri : 199</div>
+        <div class="game-time">Niveau du iop : 190</div>
+        <div class="game-time">Niveau de l'eni : 142</div>
+      </div>
+
+      <div class="game-box">
+        <div class="game-title">Wakfu</div>
+        <div class="game-time">Niveau de l'eni : 83</div>
+      </div>
+
+      <div class="game-box">
+        <div class="game-title">Waven</div>
+        <div class="game-time">Niveau de l'eni : 50</div>
+      </div>
+
+      <div class="game-box">
+        <div class="game-title">Heartwood Online</div>
+        <div class="game-time">Niveau : 31</div>
+      </div>
     </div>
 
-    <div class="game-box">
-      <div class="game-title">Valorant</div>
-      <div class="game-time">Peak ELO : Diamant 1 0LP</div>
-      <div class="game-time">Actuellement : Non classé</div>
-    </div>
-
-    <div class="game-box">
-      <div class="game-title">Fortnite</div>
-      <div class="game-time">Peak ELO : Diamant 2 60%</div>
-      <div class="game-time">Actuellement : Diamant 2 60%</div>
-    </div>
-
-    <div class="game-box">
-      <div class="game-title">Counter Strike: Global Offensive</div>
-      <div class="game-time">Peak ELO : Legendary Eagle Master</div>
-      <div class="game-time">Actuellement : Non classé (9 victoires sur 10)</div>
-    </div>
-
-    <div class="game-box">
-      <div class="game-title">Brawlhalla</div>
-      <div class="game-time">Peak ELO en 1v1 : 2200</div>
-      <div class="game-time">Peak ELO en 2v2 : 2300</div>
-      <div class="game-time">Actuellement : Non classé</div>
-    </div>
-
-    <div class="game-box">
-      <div class="game-title">Super Smash Bros Ultimate</div>
-      <div class="game-time">Peak ELO : X sur Lucina</div>
-      <div class="game-time">Personnages en Élite : Lucina, Samus, Rondoudou, Ganondorf, Captain Falcon, Cloud</div>
-    </div>
-
-    <div class="game-box">
-      <div class="game-title">Phasmophobia</div>
-      <div class="game-time">Niveau maximum (avant refonte) : 5550</div>
-      <div class="game-time">Niveau actuel : 32 prestige 2</div>
-    </div>
-
-    <div class="game-box">
-      <div class="game-title">World of Warcraft</div>
-      <div class="game-time">Niveau du prêtre (classique) : 80</div>
-      <div class="game-time">Niveau du voleur (vanilla) : 21</div>
-    </div>
-
-    <div class="game-box">
-      <div class="game-title">Dofus</div>
-      <div class="game-time">Niveau du crâ : 200</div>
-      <div class="game-time">Niveau du sacri : 199</div>
-      <div class="game-time">Niveau du iop : 190</div>
-      <div class="game-time">Niveau de l'eni : 142</div>
-    </div>
-
-    <div class="game-box">
-      <div class="game-title">Wakfu</div>
-      <div class="game-time">Niveau de l'eni : 83</div>
-    </div>
-
-    <div class="game-box">
-      <div class="game-title">Waven</div>
-      <div class="game-time">Niveau de l'eni : 50</div>
-    </div>
-
-    <div class="game-box">
-      <div class="game-title">Heartwood Online</div>
-      <div class="game-time">Niveau : 31</div>
-    </div>
-
-    <div class="game-box">
-      <div class="game-title">Only up!</div>
-      <div class="game-time">Record Tanguy : 66 minutes</div>
-      <div class="game-time">Record groupé : ~8 heures</div>
-    </div>
   </div>
+
+  <div class="game-container">
+
+    <button class="dropdown-btn" onclick="toggleGroupedGames()">Jeux Groupés</button>
+    <div id="grouped-games" class="game-container dropdown-content">
+
+      <div class="game-box">
+        <div class="game-title">Only up!</div>
+        <div class="game-time">Record Tanguy : 1h06 minutes</div>
+        <div class="game-time">Record groupé : ~2h30 heures</div>
+      </div>
+
+      <div class="game-box">
+        <div class="game-title">Celeste</div>
+        <div class="game-time">Record groupé : 8h08 (1338 morts)</div>
+      </div>
+
+      <div class="game-box">
+        <div class="game-title">The Talos Principles</div>
+        <div class="game-time">Coming soon</div>
+      </div>
+
+      <div class="game-box">
+        <div class="game-title">Dark Soul like</div>
+        <div class="game-time">Coming soon</div>
+      </div>
+
+      <div class="game-box">
+        <div class="game-title">Blue Flame</div>
+        <div class="game-time">Coming soon</div>
+      </div>
+
+      <div class="game-box">
+        <div class="game-title">Coming soon</div>
+        <div class="game-time">Coming soon</div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="index.js"></script>
 </body>
 </html>
