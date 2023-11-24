@@ -1,11 +1,16 @@
+function toggleSoloGames() {
+  var soloGames = document.getElementById("solo-games");
+  soloGames.classList.toggle("show");
+}
+
 function toggleGroupedGames() {
   var groupedGames = document.getElementById("grouped-games");
   groupedGames.classList.toggle("show");
 }
 
-function toggleSoloGames() {
-  var soloGames = document.getElementById("solo-games");
-  soloGames.classList.toggle("show");
+function toggleSpeedrunGames() {
+  var speedrunGames = document.getElementById("speedrun-games");
+  speedrunGames.classList.toggle("show");
 }
 
 window.onclick = function (event) {
